@@ -108,5 +108,5 @@ Licensed under the **MIT License** — use, modify, and share freely.
 
 **Jemil Desai**
 Aspiring Data Scientist | ML Enthusiast | India
-[LinkedIn](www.linkedin.com/in/jemil-desai)
+[LinkedIn](https://www.linkedin.com/in/jemil-desai/)
 
