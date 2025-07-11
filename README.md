@@ -6,12 +6,6 @@ An intelligent and personalized web app to help individuals assess their investm
 
 ---
 
-## 🚀 Demo
-
-**Live App**: *\[Insert your hosted app link]*
-**Preview**: ![Demo GIF](preview.gif) *(Optional)*
-
----
 
 ## 🧠 How It Works
 
