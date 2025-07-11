@@ -1,76 +1,85 @@
-📊 Investment Risk Profiler (Streamlit App)
-An intelligent web app that helps new and existing investors discover their personalized investment risk category and get dynamic portfolio allocation based on real-world financial behavior.
+# Investment Risk Profiler 📊
 
-🔍 “Not every investor is the same. This app adapts to you.”
+An intelligent and personalized web app to help individuals assess their investment risk category and get a tailored asset allocation strategy.
 
-🚀 Demo
-📍 Hosted Demo: [Add your Streamlit Cloud/Railway link]
-🎥 Preview GIF: (optional)
+> 🔍 “Not every investor is the same. This app adapts to **you**.”
 
-🧠 How It Works
-The app takes in 5 inputs:
+---
 
-Age
+## 🚀 Demo
 
-Annual Income
+**Live App**: *\[Insert your hosted app link]*
+**Preview**: ![Demo GIF](preview.gif) *(Optional)*
 
-Investment Goal
+---
 
-Risk Appetite
+## 🧠 How It Works
 
-Financial Knowledge
+You input:
 
-It uses a trained Decision Tree Classifier to:
+* Age
+* Annual Income
+* Investment Goal
+* Risk Appetite
+* Financial Knowledge
 
-Categorize you as a Conservative, Moderate, or Aggressive investor.
+The app:
 
-Then, based on a dynamic scoring system, it generates a personalized portfolio allocation across:
+1. Uses a trained **Decision Tree Classifier** to predict your **Risk Category**:
 
-🟦 Stocks
+   * Conservative
+   * Moderate
+   * Aggressive
+2. Applies a dynamic scoring logic to personalize your investment allocation:
 
-🟨 Bonds
+   * 🔙 Stocks
+   * 🔙 Bonds
+   * 🔙 Crypto
+   * 🔙 Gold
+   * 🔙 Others
 
-🟧 Gold
+---
 
-🟥 Crypto
+## 📊 Features
 
-🟩 Others
+* ✅ Real-time ML-based risk profiling
+* ✅ Personalized portfolio allocation
+* ✅ Interactive charts: Bar + Pie
+* ✅ Progress bar showing risk level
+* ✅ Responsive and simple Streamlit UI
 
-📈 Features
-✅ Dynamic charts (bar & pie)
-✅ Real-time ML-based predictions
-✅ Personalized investment allocations
-✅ Clean, interactive Streamlit UI
-✅ Easy to deploy or extend
+---
 
-🛠 Tech Stack
-🐍 Python
+## 🛠️ Tech Stack
 
-🎯 scikit-learn (Decision Tree)
+* Python
+* scikit-learn
+* pandas, numpy
+* Plotly (charts)
+* Streamlit (UI)
+* joblib (model saving/loading)
 
-📊 pandas, numpy
+---
 
-📈 Plotly (charts)
+## 📂 Project Structure
 
-🌐 Streamlit (UI)
-
-📦 joblib (model serialization)
-
-📂 Project Structure
-bash
-Copy
-Edit
-├── app.py                      # Main Streamlit app
-├── train_model.py              # Train & save model
-├── generate_data.py            # Synthetic dataset generator
-├── risk_model.pkl              # Trained ML model
-├── *_encoder.pkl               # Label encoders
+```
+├── app.py                           # Streamlit app UI
+├── generate_data.py                # Synthetic dataset generator
+├── train_model.py                  # Model training script
 ├── investment_risk_profile_dataset.csv
-└── README.md
-🧪 Sample Input
-json
-Copy
-Edit
+├── risk_model.pkl                  # Trained ML model
+├── *_encoder.pkl                   # Encoders for categorical data
+├── README.md
+```
+
+---
+
+## 💪 Sample Prediction
+
+**Input:**
+
+```json
 {
   "Age": 30,
   "Income": 900000,
@@ -78,34 +87,39 @@ Edit
   "Knowledge": "Intermediate",
   "Goal": "Wealth Growth"
 }
-📤 Sample Output
-🧠 You are a Moderate investor
-💼 Recommended Allocation:
+```
 
-52% Stocks
+**Output:**
 
-25% Bonds
+* Risk Category: **Moderate**
+* Portfolio:
 
-10% Crypto
+  * 52% Stocks
+  * 25% Bonds
+  * 10% Crypto
+  * 8% Gold
+  * 5% Others
 
-8% Gold
+---
 
-5% Others
+## 🧪 Future Enhancements
 
-💡 Future Improvements
-🔐 User login & history tracking
+* 🔐 User authentication and history
+* 📄 Exportable PDF reports
+* 🌍 Real-time market integration
+* 🧠 Deep learning models for profiling
 
-🧾 PDF portfolio reports
+---
 
-🌍 Real-time market-based adjustments
+## 📄 License
 
-🧠 Use XGBoost or deep learning models
+Licensed under the **MIT License** — use, modify, and share freely.
 
-📚 License
-This project is under the MIT License – free to use, modify, and share!
+---
 
-💼 Author
-Jemil Desai
-Data Analyst | ML Enthusiast | 📍 India
-🔗 LinkedIn
-🔗 Portfolio (optional)
+## 💼 Author
+
+**Jemil Desai**
+Aspiring Data Scientist | ML Enthusiast | India
+[LinkedIn](www.linkedin.com/in/jemil-desai)
+
