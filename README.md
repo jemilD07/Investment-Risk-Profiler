@@ -61,19 +61,6 @@ The app:
 
 ---
 
-## 📂 Project Structure
-
-```
-├── app.py                           # Streamlit app UI
-├── generate_data.py                # Synthetic dataset generator
-├── train_model.py                  # Model training script
-├── investment_risk_profile_dataset.csv
-├── risk_model.pkl                  # Trained ML model
-├── *_encoder.pkl                   # Encoders for categorical data
-├── README.md
-```
-
----
 
 ## 💪 Sample Prediction
 
