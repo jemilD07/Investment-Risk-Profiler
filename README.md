@@ -92,12 +92,6 @@ The app:
 
 ---
 
-## 📄 License
-
-Licensed under the **MIT License** — use, modify, and share freely.
-
----
-
 ## 💼 Author
 
 **Jemil Desai**
